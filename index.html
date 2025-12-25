@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="PeterMat - Premium Australian sporting equipment and apparel. Born from the land, built for performance.">
+    <meta name="keywords" content="Australian sports, sporting goods, athletic wear, Australian made, premium sports equipment">
+    <title>PeterMat | Australian Sporting Brand</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="nav" id="nav">
+        <div class="nav-container">
+            <a href="#" class="nav-logo">
+                <span class="logo-text">PETERMAT</span>
+            </a>
+            <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#products" class="nav-link">Products</a></li>
+                <li><a href="#values" class="nav-link">Our Values</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-bg"></div>
+        <div class="hero-content">
+            <span class="hero-tagline">Australian Sporting Excellence</span>
+            <h1 class="hero-title">BORN FROM<br>THE LAND</h1>
+            <p class="hero-subtitle">Premium sporting equipment and apparel crafted in Australia. Where rugged durability meets peak performance.</p>
+            <div class="hero-cta">
+                <a href="#products" class="btn btn-primary">Explore Collection</a>
+                <a href="#about" class="btn btn-secondary">Our Story</a>
+            </div>
+        </div>
+        <div class="hero-scroll">
+            <span>Scroll to discover</span>
+            <div class="scroll-indicator"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-content">
+                    <span class="section-label">Our Story</span>
+                    <h2 class="section-title">Crafted in the Heart of Australia</h2>
+                    <p class="about-text">
+                        PeterMat was founded with a simple belief: Australian athletes deserve equipment that matches their spirit—tough, resilient, and built for the unique conditions of our land.
+                    </p>
+                    <p class="about-text">
+                        From the sun-scorched outback to the coastal breaks, our gear is tested in Australia's most demanding environments. Every stitch, every material, every design choice reflects our commitment to authentic Australian craftsmanship.
+                    </p>
+                    <div class="about-stats">
+                        <div class="stat">
+                            <span class="stat-number">100%</span>
+                            <span class="stat-label">Australian Designed</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">15+</span>
+                            <span class="stat-label">Sports Covered</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">50K+</span>
+                            <span class="stat-label">Athletes Trust Us</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <div class="image-placeholder">
+                        <svg viewBox="0 0 200 200" class="about-graphic">
+                            <defs>
+                                <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+                                    <stop offset="0%" style="stop-color:var(--color-primary);stop-opacity:1" />
+                                    <stop offset="100%" style="stop-color:var(--color-accent);stop-opacity:1" />
+                                </linearGradient>
+                            </defs>
+                            <circle cx="100" cy="100" r="80" fill="url(#grad1)" opacity="0.2"/>
+                            <path d="M100 30 L130 80 L180 90 L145 125 L155 175 L100 150 L45 175 L55 125 L20 90 L70 80 Z" fill="url(#grad1)" opacity="0.8"/>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section class="products" id="products">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">Our Range</span>
+                <h2 class="section-title">Performance Gear</h2>
+                <p class="section-subtitle">Equipment designed for Australian conditions, built for champions.</p>
+            </div>
+            <div class="products-grid">
+                <article class="product-card">
+                    <div class="product-image">
+                        <div class="product-placeholder">
+                            <svg viewBox="0 0 100 100" class="product-icon">
+                                <circle cx="50" cy="35" r="25" fill="currentColor" opacity="0.3"/>
+                                <rect x="30" y="55" width="40" height="40" rx="5" fill="currentColor" opacity="0.3"/>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="product-content">
+                        <span class="product-category">Apparel</span>
+                        <h3 class="product-title">Performance Wear</h3>
+                        <p class="product-description">Breathable, UV-protective athletic wear engineered for the Australian sun.</p>
+                        <a href="#" class="product-link">View Collection →</a>
+                    </div>
+                </article>
+                <article class="product-card">
+                    <div class="product-image">
+                        <div class="product-placeholder accent">
+                            <svg viewBox="0 0 100 100" class="product-icon">
+                                <ellipse cx="50" cy="50" rx="40" ry="25" fill="currentColor" opacity="0.3"/>
+                                <line x1="50" y1="25" x2="50" y2="75" stroke="currentColor" stroke-width="3" opacity="0.5"/>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="product-content">
+                        <span class="product-category">Equipment</span>
+                        <h3 class="product-title">Sports Gear</h3>
+                        <p class="product-description">Professional-grade equipment for cricket, rugby, AFL, and more.</p>
+                        <a href="#" class="product-link">View Collection →</a>
+                    </div>
+                </article>
+                <article class="product-card">
+                    <div class="product-image">
+                        <div class="product-placeholder secondary">
+                            <svg viewBox="0 0 100 100" class="product-icon">
+                                <path d="M50 10 L90 90 L10 90 Z" fill="currentColor" opacity="0.3"/>
+                                <circle cx="50" cy="60" r="15" fill="currentColor" opacity="0.3"/>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="product-content">
+                        <span class="product-category">Accessories</span>
+                        <h3 class="product-title">Training Aids</h3>
+                        <p class="product-description">From bags to protective gear—everything to support your journey.</p>
+                        <a href="#" class="product-link">View Collection →</a>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Values Section -->
+    <section class="values" id="values">
+        <div class="container">
+            <div class="section-header light">
+                <span class="section-label">What Drives Us</span>
+                <h2 class="section-title">Our Values</h2>
+            </div>
+            <div class="values-grid">
+                <div class="value-card">
+                    <div class="value-icon">
+                        <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M24 4L29 14L40 16L32 24L34 35L24 30L14 35L16 24L8 16L19 14Z"/>
+                        </svg>
+                    </div>
+                    <h3 class="value-title">Quality First</h3>
+                    <p class="value-description">Every product undergoes rigorous testing. We don't compromise on materials or craftsmanship.</p>
+                </div>
+                <div class="value-card">
+                    <div class="value-icon">
+                        <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="24" cy="24" r="18"/>
+                            <path d="M24 6C24 6 30 18 30 24C30 30 24 42 24 42C24 42 18 30 18 24C18 18 24 6 24 6Z"/>
+                            <path d="M6 24C6 24 18 18 24 18C30 18 42 24 42 24C42 24 30 30 24 30C18 30 6 24 6 24Z"/>
+                        </svg>
+                    </div>
+                    <h3 class="value-title">Sustainably Made</h3>
+                    <p class="value-description">We're committed to protecting our land. Eco-friendly materials and ethical manufacturing.</p>
+                </div>
+                <div class="value-card">
+                    <div class="value-icon">
+                        <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M12 24L20 32L36 16"/>
+                            <rect x="6" y="6" width="36" height="36" rx="4"/>
+                        </svg>
+                    </div>
+                    <h3 class="value-title">Aussie Tested</h3>
+                    <p class="value-description">Developed with Australian athletes, tested in Australian conditions. Built for our unique environment.</p>
+                </div>
+                <div class="value-card">
+                    <div class="value-icon">
+                        <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M24 8C24 8 8 16 8 28C8 36 16 44 24 44C32 44 40 36 40 28C40 16 24 8 24 8Z"/>
+                            <path d="M24 20V32M20 26H28"/>
+                        </svg>
+                    </div>
+                    <h3 class="value-title">Community Focus</h3>
+                    <p class="value-description">Supporting grassroots sports across Australia. From local clubs to national champions.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta">
+        <div class="container">
+            <div class="cta-content">
+                <h2 class="cta-title">Ready to Elevate Your Game?</h2>
+                <p class="cta-text">Join thousands of Australian athletes who trust PeterMat for their sporting needs.</p>
+                <a href="#contact" class="btn btn-primary btn-large">Get in Touch</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <span class="section-label">Get in Touch</span>
+                    <h2 class="section-title">Let's Connect</h2>
+                    <p class="contact-text">Have questions about our products or want to partner with us? We'd love to hear from you.</p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/>
+                                <circle cx="12" cy="10" r="3"/>
+                            </svg>
+                            <span>Melbourne, Australia</span>
+                        </div>
+                        <div class="contact-item">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+                                <polyline points="22,6 12,13 2,6"/>
+                            </svg>
+                            <span>hello@petermat.com</span>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="#" class="social-link" aria-label="Instagram">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <rect x="2" y="2" width="20" height="20" rx="5"/>
+                                <circle cx="12" cy="12" r="4"/>
+                                <circle cx="18" cy="6" r="1" fill="currentColor"/>
+                            </svg>
+                        </a>
+                        <a href="#" class="social-link" aria-label="Facebook">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"/>
+                            </svg>
+                        </a>
+                        <a href="#" class="social-link" aria-label="Twitter">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="contact-form-wrapper">
+                    <form class="contact-form" id="contact-form">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" required placeholder="Your name">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required placeholder="your@email.com">
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <select id="subject" name="subject" required>
+                                <option value="">Select a topic</option>
+                                <option value="products">Product Inquiry</option>
+                                <option value="partnership">Partnership</option>
+                                <option value="sponsorship">Sponsorship</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="4" required placeholder="Tell us more..."></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-full">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <span class="logo-text">PETERMAT</span>
+                    <p class="footer-tagline">Born from the land.<br>Built for performance.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#products">Products</a></li>
+                        <li><a href="#values">Our Values</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Support</h4>
+                    <ul>
+                        <li><a href="#">Size Guide</a></li>
+                        <li><a href="#">Shipping</a></li>
+                        <li><a href="#">Returns</a></li>
+                        <li><a href="#">FAQ</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Legal</h4>
+                    <ul>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                        <li><a href="#">Cookie Policy</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 PeterMat. All rights reserved. Proudly Australian.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
