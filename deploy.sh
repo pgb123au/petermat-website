@@ -26,9 +26,9 @@ fi
 # Enable GitHub Pages
 echo "🌐 Enabling GitHub Pages..."
 gh api -X PUT repos/:owner/petermat-website/pages \
-    -f source='{"branch":"main","path":"/"}' 2>/dev/null || \
+    --input - <<< '{"source":{"branch":"main","path":"/"}}' 2>/dev/null || \
 gh api -X POST repos/:owner/petermat-website/pages \
-    -f source='{"branch":"main","path":"/"}'
+    --input - <<< '{"source":{"branch":"main","path":"/"}}'
 
 # Get the pages URL
 PAGES_URL=$(gh api repos/:owner/petermat-website/pages --jq '.html_url' 2>/dev/null)
