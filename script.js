@@ -9,6 +9,7 @@ document.addEventListener('DOMContentLoaded', () => {
     initContactForm();
     initSmoothScroll();
     initScrollAnimations();
+    initCurrentYear();
 });
 
 /**
@@ -261,3 +262,13 @@ window.addEventListener('scroll', () => {
         }
     });
 }, { passive: true });
+
+/**
+ * Set current year in footer
+ */
+function initCurrentYear() {
+    const yearElement = document.getElementById('current-year');
+    if (yearElement) {
+        yearElement.textContent = new Date().getFullYear().toString();
+    }
+}
